@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		987B000820A9DE09003A8939 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 987B000720A9DE09003A8939 /* AppDelegate.m */; };
+		987B000B20A9DE09003A8939 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987B000A20A9DE09003A8939 /* ViewController.m */; };
+		987B000E20A9DE09003A8939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987B000C20A9DE09003A8939 /* Main.storyboard */; };
+		987B001020A9DE0A003A8939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987B000F20A9DE0A003A8939 /* Assets.xcassets */; };
+		987B001320A9DE0A003A8939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987B001120A9DE0A003A8939 /* LaunchScreen.storyboard */; };
+		987B001620A9DE0A003A8939 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 987B001520A9DE0A003A8939 /* main.m */; };
+		987B002020A9DE0A003A8939 /* TTLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 987B001F20A9DE0A003A8939 /* TTLabelDemoTests.m */; };
+		987B002B20A9DE0A003A8939 /* TTLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 987B002A20A9DE0A003A8939 /* TTLabelDemoUITests.m */; };
+		987B003A20A9F80A003A8939 /* TTFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987B003920A9F80A003A8939 /* TTFeedbackViewController.m */; };
+		C9FE89C7B4C290EF8A7B7C84 /* Pods_TTLabelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8F3E522BFF17CA9D472A5 /* Pods_TTLabelDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		987B001C20A9DE0A003A8939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987BFFFB20A9DE09003A8939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 987B000220A9DE09003A8939;
+			remoteInfo = TTLabelDemo;
+		};
+		987B002720A9DE0A003A8939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987BFFFB20A9DE09003A8939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 987B000220A9DE09003A8939;
+			remoteInfo = TTLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC4DD8FB3637316401B25A8 /* Pods-TTLabelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTLabelDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTLabelDemo/Pods-TTLabelDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4A73318147DB067B03D77977 /* Pods-TTLabelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTLabelDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTLabelDemo/Pods-TTLabelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		987B000320A9DE09003A8939 /* TTLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		987B000620A9DE09003A8939 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		987B000720A9DE09003A8939 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		987B000920A9DE09003A8939 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		987B000A20A9DE09003A8939 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		987B000D20A9DE09003A8939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		987B000F20A9DE0A003A8939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		987B001220A9DE0A003A8939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		987B001420A9DE0A003A8939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		987B001520A9DE0A003A8939 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		987B001B20A9DE0A003A8939 /* TTLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		987B001F20A9DE0A003A8939 /* TTLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLabelDemoTests.m; sourceTree = "<group>"; };
+		987B002120A9DE0A003A8939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		987B002620A9DE0A003A8939 /* TTLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		987B002A20A9DE0A003A8939 /* TTLabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLabelDemoUITests.m; sourceTree = "<group>"; };
+		987B002C20A9DE0A003A8939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		987B003820A9F80A003A8939 /* TTFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFeedbackViewController.h; sourceTree = "<group>"; };
+		987B003920A9F80A003A8939 /* TTFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFeedbackViewController.m; sourceTree = "<group>"; };
+		ABB8F3E522BFF17CA9D472A5 /* Pods_TTLabelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTLabelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		987B000020A9DE09003A8939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FE89C7B4C290EF8A7B7C84 /* Pods_TTLabelDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987B001820A9DE0A003A8939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987B002320A9DE0A003A8939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26D8C1568F804A4B323CB829 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8F3E522BFF17CA9D472A5 /* Pods_TTLabelDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		440F6825A33250571BF05B32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A73318147DB067B03D77977 /* Pods-TTLabelDemo.debug.xcconfig */,
+				0AC4DD8FB3637316401B25A8 /* Pods-TTLabelDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		987B000420A9DE09003A8939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				987B000320A9DE09003A8939 /* TTLabelDemo.app */,
+				987B001B20A9DE0A003A8939 /* TTLabelDemoTests.xctest */,
+				987B002620A9DE0A003A8939 /* TTLabelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		987B000520A9DE09003A8939 /* TTLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				987B000620A9DE09003A8939 /* AppDelegate.h */,
+				987B000720A9DE09003A8939 /* AppDelegate.m */,
+				987B000920A9DE09003A8939 /* ViewController.h */,
+				987B000A20A9DE09003A8939 /* ViewController.m */,
+				987B003820A9F80A003A8939 /* TTFeedbackViewController.h */,
+				987B003920A9F80A003A8939 /* TTFeedbackViewController.m */,
+				987B000C20A9DE09003A8939 /* Main.storyboard */,
+				987B000F20A9DE0A003A8939 /* Assets.xcassets */,
+				987B001120A9DE0A003A8939 /* LaunchScreen.storyboard */,
+				987B001420A9DE0A003A8939 /* Info.plist */,
+				987B001520A9DE0A003A8939 /* main.m */,
+			);
+			path = TTLabelDemo;
+			sourceTree = "<group>";
+		};
+		987B001E20A9DE0A003A8939 /* TTLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				987B001F20A9DE0A003A8939 /* TTLabelDemoTests.m */,
+				987B002120A9DE0A003A8939 /* Info.plist */,
+			);
+			path = TTLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		987B002920A9DE0A003A8939 /* TTLabelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				987B002A20A9DE0A003A8939 /* TTLabelDemoUITests.m */,
+				987B002C20A9DE0A003A8939 /* Info.plist */,
+			);
+			path = TTLabelDemoUITests;
+			sourceTree = "<group>";
+		};
+		987BFFFA20A9DE09003A8939 = {
+			isa = PBXGroup;
+			children = (
+				987B000520A9DE09003A8939 /* TTLabelDemo */,
+				987B001E20A9DE0A003A8939 /* TTLabelDemoTests */,
+				987B002920A9DE0A003A8939 /* TTLabelDemoUITests */,
+				987B000420A9DE09003A8939 /* Products */,
+				440F6825A33250571BF05B32 /* Pods */,
+				26D8C1568F804A4B323CB829 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		987B000220A9DE09003A8939 /* TTLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 987B002F20A9DE0A003A8939 /* Build configuration list for PBXNativeTarget "TTLabelDemo" */;
+			buildPhases = (
+				17A2B80052E4276E382F162F /* [CP] Check Pods Manifest.lock */,
+				987BFFFF20A9DE09003A8939 /* Sources */,
+				987B000020A9DE09003A8939 /* Frameworks */,
+				987B000120A9DE09003A8939 /* Resources */,
+				2280F2221C3540E498F5471A /* [CP] Embed Pods Frameworks */,
+				C7FBC51B40EE7C4515E73936 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTLabelDemo;
+			productName = TTLabelDemo;
+			productReference = 987B000320A9DE09003A8939 /* TTLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		987B001A20A9DE0A003A8939 /* TTLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 987B003220A9DE0A003A8939 /* Build configuration list for PBXNativeTarget "TTLabelDemoTests" */;
+			buildPhases = (
+				987B001720A9DE0A003A8939 /* Sources */,
+				987B001820A9DE0A003A8939 /* Frameworks */,
+				987B001920A9DE0A003A8939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				987B001D20A9DE0A003A8939 /* PBXTargetDependency */,
+			);
+			name = TTLabelDemoTests;
+			productName = TTLabelDemoTests;
+			productReference = 987B001B20A9DE0A003A8939 /* TTLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		987B002520A9DE0A003A8939 /* TTLabelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 987B003520A9DE0A003A8939 /* Build configuration list for PBXNativeTarget "TTLabelDemoUITests" */;
+			buildPhases = (
+				987B002220A9DE0A003A8939 /* Sources */,
+				987B002320A9DE0A003A8939 /* Frameworks */,
+				987B002420A9DE0A003A8939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				987B002820A9DE0A003A8939 /* PBXTargetDependency */,
+			);
+			name = TTLabelDemoUITests;
+			productName = TTLabelDemoUITests;
+			productReference = 987B002620A9DE0A003A8939 /* TTLabelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		987BFFFB20A9DE09003A8939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "袁文辰";
+				TargetAttributes = {
+					987B000220A9DE09003A8939 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					987B001A20A9DE0A003A8939 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 987B000220A9DE09003A8939;
+					};
+					987B002520A9DE0A003A8939 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 987B000220A9DE09003A8939;
+					};
+				};
+			};
+			buildConfigurationList = 987BFFFE20A9DE09003A8939 /* Build configuration list for PBXProject "TTLabelDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 987BFFFA20A9DE09003A8939;
+			productRefGroup = 987B000420A9DE09003A8939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				987B000220A9DE09003A8939 /* TTLabelDemo */,
+				987B001A20A9DE0A003A8939 /* TTLabelDemoTests */,
+				987B002520A9DE0A003A8939 /* TTLabelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		987B000120A9DE09003A8939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987B001320A9DE0A003A8939 /* LaunchScreen.storyboard in Resources */,
+				987B001020A9DE0A003A8939 /* Assets.xcassets in Resources */,
+				987B000E20A9DE09003A8939 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987B001920A9DE0A003A8939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987B002420A9DE0A003A8939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17A2B80052E4276E382F162F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTLabelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2280F2221C3540E498F5471A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TTLabelDemo/Pods-TTLabelDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTLabelDemo/Pods-TTLabelDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7FBC51B40EE7C4515E73936 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTLabelDemo/Pods-TTLabelDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		987B001720A9DE0A003A8939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987B002020A9DE0A003A8939 /* TTLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987B002220A9DE0A003A8939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987B002B20A9DE0A003A8939 /* TTLabelDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987BFFFF20A9DE09003A8939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987B000B20A9DE09003A8939 /* ViewController.m in Sources */,
+				987B003A20A9F80A003A8939 /* TTFeedbackViewController.m in Sources */,
+				987B001620A9DE0A003A8939 /* main.m in Sources */,
+				987B000820A9DE09003A8939 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		987B001D20A9DE0A003A8939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 987B000220A9DE09003A8939 /* TTLabelDemo */;
+			targetProxy = 987B001C20A9DE0A003A8939 /* PBXContainerItemProxy */;
+		};
+		987B002820A9DE0A003A8939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 987B000220A9DE09003A8939 /* TTLabelDemo */;
+			targetProxy = 987B002720A9DE0A003A8939 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		987B000C20A9DE09003A8939 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				987B000D20A9DE09003A8939 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		987B001120A9DE0A003A8939 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				987B001220A9DE0A003A8939 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		987B002D20A9DE0A003A8939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		987B002E20A9DE0A003A8939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		987B003020A9DE0A003A8939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A73318147DB067B03D77977 /* Pods-TTLabelDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tantan.test.TTLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		987B003120A9DE0A003A8939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC4DD8FB3637316401B25A8 /* Pods-TTLabelDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tantan.test.TTLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		987B003320A9DE0A003A8939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tantan.test.TTLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTLabelDemo.app/TTLabelDemo";
+			};
+			name = Debug;
+		};
+		987B003420A9DE0A003A8939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tantan.test.TTLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTLabelDemo.app/TTLabelDemo";
+			};
+			name = Release;
+		};
+		987B003620A9DE0A003A8939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tantan.test.TTLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTLabelDemo;
+			};
+			name = Debug;
+		};
+		987B003720A9DE0A003A8939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tantan.test.TTLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTLabelDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		987B002F20A9DE0A003A8939 /* Build configuration list for PBXNativeTarget "TTLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987B003020A9DE0A003A8939 /* Debug */,
+				987B003120A9DE0A003A8939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		987B003220A9DE0A003A8939 /* Build configuration list for PBXNativeTarget "TTLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987B003320A9DE0A003A8939 /* Debug */,
+				987B003420A9DE0A003A8939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		987B003520A9DE0A003A8939 /* Build configuration list for PBXNativeTarget "TTLabelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987B003620A9DE0A003A8939 /* Debug */,
+				987B003720A9DE0A003A8939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		987BFFFE20A9DE09003A8939 /* Build configuration list for PBXProject "TTLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987B002D20A9DE0A003A8939 /* Debug */,
+				987B002E20A9DE0A003A8939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 987BFFFB20A9DE09003A8939 /* Project object */;
+}

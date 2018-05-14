@@ -1,0 +1,6 @@
+framework module Pods_TTLabelDemo {
+  umbrella header "Pods-TTLabelDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
